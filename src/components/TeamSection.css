@@ -1,0 +1,37 @@
+.team-section {
+  padding: 60px 40px;
+}
+
+.team-header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.team-circles {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-circle {
+  width: 150px;
+  height: 90px;
+  border-radius: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.team-circle:hover {
+  transform: scale(1.08);
+}
+
+.team-circle img {
+  width: 120%;
+  height: 120%;
+  object-fit: contain;
+}

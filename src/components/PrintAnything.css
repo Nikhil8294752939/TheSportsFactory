@@ -1,0 +1,35 @@
+.print-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.print-content {
+  width: 50%;
+}
+
+.print-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.print-content p {
+  color: #666;
+  line-height: 1.8;
+}
+
+.print-image img {
+  height: 460px;
+}
+
+@media (max-width: 900px) {
+  .print-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .print-image img {
+    height: 320px;
+    margin-top: 40px;
+  }
+}

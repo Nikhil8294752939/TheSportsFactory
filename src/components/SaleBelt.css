@@ -1,0 +1,30 @@
+.sale-belt {
+  width: 100%;
+  background: black;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.sale-track {
+  display: flex;
+  width: max-content;
+  animation: moveLeftToRight 15s linear infinite;
+}
+
+.sale-track span {
+  color: red;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-right: 80px;
+  text-transform: uppercase;
+}
+
+@keyframes moveLeftToRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
